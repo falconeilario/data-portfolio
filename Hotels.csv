@@ -1,0 +1,21 @@
+id,city,hotel_name,check_in,check_out,cost_per_night
+1,Barcelona,Miramare,25-04-2024,03-05-2024,223
+2,Barcelona,Belvedere,25-04-2024,03-05-2024,221
+3,Barcelona,GodoBeach,26-04-2024,04-05-2024,150
+4,Rome,Miramare,25-04-2024,03-05-2024,98
+5,Rome,Marechiaro,25-04-2024,04-05-2024,164
+6,Rome,Marefuori,26-04-2024,04-05-2024,114
+7,Rome,Maremmario,27-04-2024,05-05-2024,235
+8,Valencia,Playa Sabrosa,25-04-2024,03-05-2024,81
+9,Valencia,Miramare,25-04-2024,04-05-2024,139
+10,Valencia,Belvedere,26-04-2024,05-05-2024,159
+11,Valencia,MuchoGusto Hotel,27-04-2024,05-05-2024,135
+12,Lanzarote,GodoBeach,25-04-2024,03-05-2024,118
+13,Lanzarote,Gianna Hotel,26-04-2024,05-05-2024,102
+14,Lisbon,Pino Hotel,25-04-2024,03-05-2024,129
+15,Lisbon,Punta Hotel,25-04-2024,03-05-2024,208
+16,Lisbon,Sorbetto B&B,26-04-2024,04-05-2024,241
+17,Lisbon,Belvedere,27-04-2024,04-05-2024,217
+18,Lisbon,Maria Sol,28-04-2024,05-05-2024,144
+19,Rhodes,Colossus,25-04-2024,03-05-2024,137
+20,Rhodes,Mira Mario,26-04-2024,04-05-2024,142
