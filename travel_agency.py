@@ -51,7 +51,7 @@ def retrieve_flight_info(searched_value, output_column):
 
 # Reusable function to transform boolean in integer
 def transform_bool_to_int(input_value):
-    return 1 if input_value else 0
+    return 1 if input_value == "Yes" else 0
 
 # LAUNCH PROGRAM
 print("Welcome to our Travel agency!\nWe will help you find a flight for your holiday by choosing from a series of available locations and services.\nLet's begin!")
@@ -177,8 +177,10 @@ trip_days = return_day - departure_day
 
 
 # Calculated costs
-cost_extra_baggage = service_extra_baggage * trip_days.days * transform_bool_to_int(selected_extra_baggage)
+cost_extra_baggage = service_extra_baggage * transform_bool_to_int(selected_extra_baggage)
+print("-----")
 print(cost_extra_baggage)
+print("-----")
 cost_car_rental = service_car_rental_per_day * trip_days.days * transform_bool_to_int(selected_rental_car)
 cost_travel_insurance = service_travel_insurance_per_day * trip_days.days * transform_bool_to_int(selected_travel_insurance)
 total_cost = float(selected_departure_price) + float(selected_return_price) + int(cost_extra_baggage) + float(cost_car_rental) + float(cost_travel_insurance)
@@ -191,17 +193,17 @@ Flight number: {selected_departure_flight} | {selected_departure_company} | Dura
 Ticket price: £ {selected_departure_price}
 ---
 DEPARTURE: {selected_return_date} at {selected_return_time} | {selected_arrival_city} \u2b95 {selected_departure_city}
-Flight number: {selected_return_flight} | {selected_return_company} | {selected_return_duration} minutes
-Ticket price: {selected_return_price}
+Flight number: {selected_return_flight} | {selected_return_company} | Duration: {selected_return_duration} minutes
+Ticket price: £ {selected_return_price}
 ---
 EXTRA LUGGAGE: {selected_extra_baggage}
-Cost: {cost_extra_baggage}
+Cost: £ {cost_extra_baggage}
 ---
 CAR RENTAL: {selected_rental_car}
-Cost: {cost_car_rental}
+Cost: £ {cost_car_rental}
 ---
 TRAVEL INSURANCE: {selected_travel_insurance}
-Cost: {cost_travel_insurance}
+Cost: £ {cost_travel_insurance}
 ---
 Total cost of the trip: £ {total_cost}
 
