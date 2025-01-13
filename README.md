@@ -17,4 +17,9 @@ The program makes use of:
 - Pandas library
 - data manipulation
 
-## [Data Analysis and Data Visualisation in Python](https://github.com/falconeilario/codingtasks)
+## [Data Analysis and Data Visualisation with Python](https://github.com/falconeilario/codingTasks)
+The objective of this task is to create graphs using a .csv dataset to explore and analyze the performance of various car models, aiming to answer specific questions based on the data:
+- Which of the manufacturers has the car with the highest revs per mile?
+- Is it generally more fuel efficient to drive in the city or on the highway?
+- What happens when the wheelbase gets larger?
+- Does a larger car mean more horsepower?
