@@ -1,6 +1,7 @@
 # Data Portfolio
-This is a collection of some of my tasks and projects developed for the Data Science Bootcamp by Cogrammar and HyperionDev I am attending.
-I'll use this space to monitor my projects, providing concise descriptions of their respective purposes.
+This is a collection of tasks and projects I developed for personal and professional use, as well as during the Data Science Bootcamp by Cogrammar and HyperionDev, which I attended in 2024.
+
+I will use this space to track my projects and provide brief descriptions of their purposes.
 
 ## [Marketing Performance Dashboard in Looker Studio](https://github.com/falconeilario/marketing-performance-looker-studio)
 
