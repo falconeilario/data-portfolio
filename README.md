@@ -1,5 +1,5 @@
 # Data Portfolio
-This is a collection of tasks and projects I developed for personal and professional use, as well as during the Data Science Bootcamp by Cogrammar and HyperionDev, which I attended in 2024.
+This is a collection of tasks and projects I developed for personal and professional use, as well as during the Data Science Bootcamp by Cogrammar and HyperionDev (full portfolio available [here](https://www.hyperiondev.com/portfolio/IF23120013127)), which I attended in 2024.
 
 I will use this space to track my projects and provide brief descriptions of their purposes.
 
